@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="MyTemplate2.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+                
+		
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                  <div class="navbar">
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+                    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+                    <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+                    <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+                  </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="C:\Users\HP\Pictures\Saved Pictures\c1.jpg" height="600px" width="100%">
+                          <div class="text"><b>Choose Your Own Style</b></div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="C:\Users\HP\Pictures\Saved Pictures\c2.jpg" height="600px" width="100%">
+                          <div class="text"><b>Fashion Has No size</b></div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="C:\Users\HP\Pictures\Saved Pictures\c5.jpg" height="600px" width="100%">
+                          <div class="text"><b>Your Comfirtzone Is Here</b></div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                      </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                  </div>
+
+            </div>
+            <br>
+            <h2 style="text-align: center;"><b>Our Products</b></h2><br>
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\p8.jpeg" width="230px" height="270px">
+                  <p class="price">Rs.300</p>
+                  <p>Men's Shirts</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\p3.jpeg" width="230px" height="270px">
+                  <p class="price">Rs.450</p>
+                  <p>Women's Western Wear</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\p7.jpg" width="230px" height="270px">
+                  <p class="price">Rs.500</p>
+                  <p>Men's Hoodies</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\p1.jpg" width="230px" height="270px">
+                  <p class="price">Rs.1000</p>
+                  <p>Women's Traditional Wear</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+            </div><br><br>
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\product-2.jpg" width="230px" height="270px">
+                  <p class="price">Rs.200</p>
+                  <p>Boys Shirts & T-Shirt</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\product-5.jpg" width="230px" height="270px">
+                  <p class="price">Rs.350</p>
+                  <p>Western Top For Girls</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\product8.jpg" width="230px" height="270px">
+                  <p class="price">Rs.850</p>
+                  <p>Boys Traditional Wear</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                   <img src="C:\Users\HP\Pictures\Saved Pictures\product7.jpg" width="230px" height="270px">
+                  <p class="price">Rs.850</p>
+                  <p>Girls Traditional wear</p>
+                  <p><button>Add To Cart</button></p>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <div class="footer">
+              <h3>Fashion World</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque autem laborum! Blanditiis ullam dolore dolores soluta voluptatum ipsam animi delectus mollitia id tempore itaque exercitationem, quod laboriosam, ad laudantium!</p>
+              <h5>Contact Details</h5>
+              <p>We are available on every social media website</p>
+              <p>fashionWorld@gmail.com</p>
+              <p>+91 123 098 4567</p>
+            </div>
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+
+        </div>
+    </body>
+</html>
